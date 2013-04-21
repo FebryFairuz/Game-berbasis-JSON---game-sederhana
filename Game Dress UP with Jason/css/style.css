@@ -1,0 +1,351 @@
+body{
+	margin:0 auto;
+	width:70%; 
+	font-family:calibri;
+	background:url(../images/bg-desktop.jpg);
+}
+#canvas{
+	background:url(../images/tablet.png) no-repeat;
+	width:953;
+	height:620;
+	margin-bottom:0px;
+	margin-top:30px;
+	padding:10px;
+}
+
+.bg{
+	background:url(../images/bg.jpg) #004e74;
+	width:834px; 
+	height:461px;
+	margin:49px 0px 0px 49px;
+	padding:10px
+}
+#pilihGames{
+	background:RGBA(250,250,250,0.6);
+	width:855px;
+	height:481px;
+	margin:-430px 0px 0px -10px;
+	position:relative;
+	display:none;
+}
+
+#iconGames{
+	background:#1ba1e2;
+	width:700px;
+	height:150px;
+	border:1px solid white;
+	padding:5px;
+	margin:0px auto 0px auto;
+	position:absolute;
+}
+#iconGames a{
+	float:right;
+	font-size:11px;
+	color:white;
+	text-decoration:none;
+	cursor:pointer;
+}
+#iconGames ul li{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	color:white;	
+	cursor:pointer;
+}
+#iconGames ul li{
+	float:left;
+	margin:10px 20px 0px 20px;
+	text-align:center;
+}
+
+#awal{
+	margin:0px;
+}
+#awal img{
+	margin:-10px 0px 0px -10px;
+	width:853px;
+	height:481px;
+}
+
+#videoMinion{
+	position:absolute;
+	margin:130px 0px 0px 230px;
+}
+#videoMinion video{
+	width:350px;
+	height:200px;
+	box-shadow: 0px 1px 5px 0px 2c2c2c;
+	background:#2c2c2c;
+}
+#app{
+	font-family:calibri; 
+	font-size:12px; 
+	color:white;
+}
+#app table{
+	margin:30px auto 0px auto;
+}
+#app .kanan{
+	width:500px;
+	vertical-align:top;
+}
+#app .kiri{
+	width:250px;
+	vertical-align:top;
+	padding-left:20px
+}
+#app p{text-align:left;text-transform:capitalize}
+#app p.user{
+	width:50px;
+	margin:-5px 0px 2px -5px;
+	font-size:20px;
+}
+#app img.pic-user{
+	width:120px;
+	height:66px;
+	margin-left:-10px;
+}
+#app img.slide{
+	width:250px;
+	height:120px;
+	margin:-120px 0px 0px -10px;
+}
+#app img.maps{
+	width:120px;
+	height:120px;
+	margin:-10px 0px 0px -10px;
+}
+
+
+/*desktop*/
+#game{
+	background:#1ba1e2;
+	width:100px;
+	height:100px;
+	color:white;
+	font-size:12px;
+	padding:10px;
+	cursor:pointer;
+	position:relative;
+	margin:10px 0px 0px 130px;
+}
+#box{
+	width:100px;
+	height:100px;
+	background:#1ba1e2;
+	color:white;
+	font-size:12px;
+	padding:10px;
+	cursor:pointer;
+	margin-bottom:10px;
+}
+#box-panjang{
+	width:100px;
+	height:233px;
+	background:#1ba1e2;
+	color:white;
+	font-size:12px;
+	padding:10px;
+	cursor:pointer;	
+	margin-bottom:10px;
+}
+#box-lebar{
+	width:230px;
+	background:#1ba1e2;
+	color:white;
+	font-size:12px;
+	padding:10px;
+	cursor:pointer;
+}
+#box:hover , #game:hover, #box-panjang:hover, #box-lebar:hover{background:#08dd80}
+#short img{
+	width:30px;
+	height:30px;
+}
+#short p{margin:5px auto 10px auto;}
+
+#dressMinion{
+	border:1px solid white;
+	background:url(../images/bg-mini.jpg)left bottom green;
+	width:832px;
+	height:461px;
+	color:black;
+	padding:10px;
+	margin-top:-10px;
+	margin-left:-10px;
+}
+#dressMinion .menu{margin:90px auto 0px 130px;}
+#dressMinion .menu img{cursor:pointer;}
+#dressMinion table{
+	width:845px;
+	border-collapse:collapse;
+	height:450px;
+	margin:-7px 0px 0px -7px;
+}
+td{vertical-align:top}
+
+#aksesoris table{
+	width:430px;
+	height:475px;
+	margin-top:-470px;
+	margin-left:40px;
+	position:relative;
+}
+#aksesoris .bg-rak{margin-left:-50px;}
+
+#baju, #bMata, #bMulut, #rambut, #tangan{cursor:pointer}
+
+#baju img{
+	width:80px;
+	height:80px;
+	position:absolute;
+}
+#baju img.bk{
+	margin-left: 55px;
+	margin-top:-10px;
+}
+#baju img.bt2{
+	margin-left: 155px;
+	margin-top:-10px;
+}
+#baju img.sm2{
+	margin-left: 250px;
+	margin-top: -10px;
+}
+#baju img.cp2{
+	margin-left: 55px;
+	margin-top: 67px;
+}
+#baju img.im{
+	margin-left: 155px;
+	margin-top: 67px;
+}
+
+#tangan img{ position:absolute}
+#tangan img.t1{
+	width:50px;
+	height:80px;
+	margin-left: 80px;
+	margin-top:17px;
+}
+#tangan img.t2{
+	width:50px;
+	height:50px;
+	margin-left:140px;
+	margin-top:20px;
+}
+
+#bMulut img{position:absolute;margin-top:10px;}
+#bMulut img.ketawa{
+	width:70px;
+	height:50px;
+	margin-left:70px;
+}
+#bMulut img.bt{
+	width:60px;
+	height:40px;
+	margin-left:180px;
+}
+
+#bMata img{
+	width:80px;
+	height:50px;
+	position:absolute;
+	margin-top:10px;
+}
+#bMata img.mt1{
+	margin-left:70px;
+}
+#bMata img.mt2{
+	margin-left:170px;
+}
+#bMata img.bt1{
+	margin-left: 260px;
+}
+#bMata img.cp1{
+	margin-left: 350px;
+}
+
+
+#rambut img{position:absolute}
+#rambut img.sm1{
+	width:100px;
+	height:50px;
+	margin-left:230px;
+	margin-top:20px;
+}
+#rambut img.r1{
+	margin-left:70px;
+	margin-top:20px;
+}
+#rambut img.r2{
+	margin-left:100px;
+	margin-top:20px;
+}
+
+#canvas-kayu .pic-canvas{ 
+	position:relative;
+	margin:-350px 0px 0px 0px;
+	width:427px;
+	height:427px;
+}
+#canvas-kayu .badan{ 
+	position:relative;
+	left:140px;
+	margin:-360px auto 0px auto;
+	cursor:pointer;
+}
+#canvas-kayu .slideButton{
+	position:relative;
+	margin:-100px auto 0px auto;
+	color:pink;
+	font-family:calibri;
+	width:310px;
+}
+
+#audio-no{
+	position:relative;
+	margin-left:-55px;
+	margin-top:1px;
+	display:none;
+}
+
+#hasil{	
+	background:RGBA(29,208,176,0.6);
+	height:481px;
+	width:852px;
+	position:relative;
+	margin:-485px auto 0px -10px;
+	display:none;
+	text-transform:capitalize;
+}
+#hasil .Htop , .Hbottom{
+	width:540px;	
+	padding:5px;
+	position:relative;
+	display:none;
+	color:white;
+	font-weight:bold;
+	font-size:14px;
+	background:RGBA(0,0,0,0.7);
+}
+#hasil .Htop{
+	margin-bottom:-55px;
+}
+#hasil .Hbottom{
+	margin-top:-55px;
+}
+#hasil a{
+	color:white;
+	text-decoration:none;
+}
+#hasil a:hover{
+	color:orange;
+	text-decoration:underline;
+}
+
+#kecocokan{
+	margin:-475px auto auto 200px;
+	position:fixed;
+	cursor:pointer;
+}

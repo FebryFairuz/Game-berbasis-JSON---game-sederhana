@@ -1,0 +1,50 @@
+{
+"baju":
+	[{
+		"biasa":
+			[{
+				"gambar": "baju.png",
+				"keterangan": "baju kerja"
+			}],
+		"batman":
+			[{
+				"topengb": "batman-kepala.png",
+				"badanb": "batman-badan.png"
+			}],
+		"superman":
+			[{
+				"rambut": "superman-rambut.png",
+				"badans": "superman-badan.png"
+			}],
+		"capten":
+			[{
+				"topengc": "capten-kepala.png",
+				"badanc": "capten-badan.png"
+			}],
+		"ironman":
+			[{
+				"robot": "ironman.png"
+			}]
+	}],
+	
+"mata" :
+	[{
+		"mataSatu" : "mata1.png",
+		"mataDua" : "mata.png"
+	}],
+"mulut" :
+	[{
+		"laugh" : "mulut.png",
+		"mood" : "mulut3.png"
+	}],
+"hair" :
+	[{
+		"satu" : "rambut1.png",
+		"dua" : "rambut2.png"
+	}],
+"tangan" :
+	[{
+		"tanganKiri" : "tanganKiri.png",
+		"tanganKanan" : "tanganKanan.png"
+	}]
+}
