@@ -1,0 +1,25 @@
+  {
+	"member":[
+		{"dir" : "member1.jpg"},
+		{"dir" : "member2.jpg"},
+		{"dir" : "member3.jpg"},
+		{"dir" : "member4.jpg"},
+		{"dir" : "member5.jpg"},
+		{"dir" : "member6.jpg"},
+		{"dir" : "member7.jpg"},
+		{"dir" : "member8.jpg"},
+		{"dir" : "member9.jpg"}
+	],
+	
+	"enemies":[
+		{"dir": "enemi1.jpg"},
+		{"dir": "enemi2.jpg"},
+		{"dir": "enemi3.jpg"},
+		{"dir": "enemi4.jpg"},
+		{"dir": "enemi5.jpg"},
+		{"dir": "enemi6.jpg"},
+		{"dir": "enemi7.jpg"},
+		{"dir": "enemi8.jpg"},
+		{"dir": "enemi9.jpg"}
+	]
+}

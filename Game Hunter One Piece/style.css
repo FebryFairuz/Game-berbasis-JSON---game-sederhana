@@ -1,0 +1,104 @@
+body{
+	margin:100px auto;
+	width:80%;
+	background:url(images/bg.jpg) YellowGreen;
+	background-position:;
+	font-family:calibri;
+	font-size:12px;
+}
+header, section, footer{
+	border:1px solid black;
+	padding:20px;
+	margin:0px;
+}
+header{
+	background:#1bd65d;
+	color:white;
+	font-size:14px;
+	border-radius:10px;
+}
+section{	
+	border:0px;
+}
+aside{margin:0px auto;}
+aside a{
+	clear:both; 
+	margin:0px auto 0px 0px;
+	color:#fff;
+	background: #0391c6;
+	border-radius:4px;
+	font-family:arial;
+	font-size:18px;
+	font-weight: bold;
+	padding:8px 15px;
+	text-align: center;
+	cursor:pointer; 
+	border:none;
+	text-shadow:1px 1px #4c9021;
+	text-decoration:none;
+}
+article table{margin:0 auto;}
+article td{
+	vertical-align:top;
+	padding:5px;
+}
+
+footer{
+	padding:10px;
+	font-size:14px;
+	color:white;
+	background:black;
+}
+
+#avatar{
+	border:1px solid #0fc54f;
+	width:700px;
+	height:400px;
+	margin:0px auto;
+	border-radius:10px;
+	background:RGBA(250,250,250,0.8);
+}
+
+#avatar:hover{
+	cursor:crosshair;
+}
+
+#avatar ul{
+	list-style:none;
+	margin:0px;
+}
+#avatar li{
+	float:left;
+	margin-right:10px;
+}
+#avatar ul li img{
+	width:100px;
+	height:100px;
+}
+#avatar marquee{
+	float:left;
+}
+#avatar img{
+	position:absolute;
+	border-radius:5px;
+	border:2px solid #0fc571;
+	box-shadow: 0px 1px 5px 0px 2c2c2c;
+}
+
+#skoor{
+	width:300px;
+	border:1px solid #0fc54f;
+	margin:0px auto;
+	padding:10px;
+	background:RGBA(250,250,250,0.8);
+	border-radius:10px;
+}
+#skoor .sp{
+	background:#1bd6c2;
+	font-size:18px;
+	font-weight:bold;
+	font-family:"Lucida Console";
+	padding:20px;
+	text-align:center;
+	border-radius:5px;
+}
